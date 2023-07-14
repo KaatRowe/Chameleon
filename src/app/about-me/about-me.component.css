@@ -1,0 +1,22 @@
+
+.flexbox {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.about {
+    font-size: 100px;
+    font-style: oblique;
+    color: #f4edea;
+    display: flex;
+    justify-content: left;
+    padding-left: 2%;
+    text-overflow: wrap;
+}
+
+p {
+    font-size: large;
+    color: #f4edea;
+    margin: auto;
+}
