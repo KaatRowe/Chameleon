@@ -7,13 +7,15 @@ import { ProjectsComponent } from './projects/projects.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { ThemesComponent } from './themes/themes.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProjectsComponent,
     AboutMeComponent,
-    ThemesComponent
+    ThemesComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
