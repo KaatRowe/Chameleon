@@ -1,19 +1,21 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutMeComponent } from 'src/app/about-me/about-me.component';
-import { ContactComponent } from 'src/app/contact/contact.component';
 import { ProjectsComponent } from 'src/app/projects/projects.component';
+import { AppComponent } from './app.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
-  { path: './aboutme',
+  { path: '',
+  title: 'Home',
+  component:HomeComponent,
+  pathMatch:'full'
+  },
+  { path: 'about-me',
     title: 'About Me',
     component: AboutMeComponent
   },
-  { path: './contact',
-    title: 'Contact',
-    component: ContactComponent
-  },
-  { path: './projects',
+  { path: 'projects',
     title: 'Projects',
     component: ProjectsComponent
   }
